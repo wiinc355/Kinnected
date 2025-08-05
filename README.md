@@ -1,20 +1,17 @@
-# Legacy+
-
-
-
 Original App Design Project - README Template
 Legacy+
+
 Table of Contents
 Overview
 Product Spec
 Wireframes
 Schema
 Overview
+
 Description
 A lifestyle command center tailored for families. Combines shared calendars, recipe vaults, beauty/fashion tracking, family history, and civic engagement tools.
 
 App Evaluation
-[Evaluation of your app across the following attributes]
 
 Category:
 Legacy+ is a multi-category app, but here are the primary categories it fits into—ranked by relevance:
@@ -227,6 +224,7 @@ Group Messaging
 → Chat Thread
 → Push Notification Settings
 ...
+
 Wireframes
 
 <img width="1536" height="1024" alt="ChatGPT Image Aug 4, 2025, 10_41_00 PM" src="https://github.com/user-attachments/assets/0383b659-f768-4f87-abf6-ae808b258e6e" />
@@ -234,6 +232,7 @@ Wireframes
 
 [BONUS] Digital Wireframes & Mockups
 [BONUS] Interactive Prototype
+
 Schema
 [This section will be completed in Unit 9]
 
