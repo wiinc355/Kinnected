@@ -3,7 +3,8 @@
 
 
 ## Kinnected
-🟪 Family-first Digital Organizer
+Family-first Digital Organizer
+
 Story:
 A private family-centric app that keeps everyone organized, connected, and emotionally in sync. Think of it as a digital command center for multigenerational households.
 
@@ -20,6 +21,7 @@ Core Features:
 
 ## Rooted
 Cultural & Generational Beauty + Lifestyle Journal
+
 Story:
 
 This app helps users document and share beauty, style, and wellness routines tied to culture, memory, and community—while tracking trends across generations.
@@ -34,8 +36,8 @@ This app helps users document and share beauty, style, and wellness routines tie
 **Habit:** Daily or weekly usage depending on beauty routines/events
 **Market:** Black and Brown families, young women, cultural creatives
 **Scope:** MVP = Hair/Nail/Fashion journal + recipe upload + local business finder
- 
-4. Civically Connected
+
+Civically Connected
 Local Politics, Education & Legacy Tracker
 
 Story:
@@ -67,5 +69,5 @@ ___________________________________________
 Final App Ideal
 
 App Name: Kinnected
-
+Kinnected is a private, family-first digital organizer that helps multigenerational and blended households stay emotionally, physically, and socially connected. It combines shared calendars, health tracking, memory keeping, and planning tools into one secure mobile hub. Whether you're managing elder care, school events, or weekly meal plans, Kinnected is your family’s digital command center.
  
