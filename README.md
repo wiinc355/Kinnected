@@ -1,238 +1,188 @@
-Original App Design Project - README Template
-Legacy+
+App Name: Kinnected
 
-Table of Contents
-Overview
-Product Spec
-Wireframes
-Schema
 Overview
 
 Description
-A lifestyle command center tailored for families. Combines shared calendars, recipe vaults, beauty/fashion tracking, family history, and civic engagement tools.
+Kinnected is a private, family-first digital organizer that helps multigenerational and blended households stay emotionally, physically, and socially connected. It combines shared calendars, health tracking, memory keeping, and planning tools into one secure mobile hub. Whether you're managing elder care, school events, or weekly meal plans, Kinnected is your family’s digital command center.
 
 App Evaluation
 
 Category:
-Legacy+ is a multi-category app, but here are the primary categories it fits into—ranked by relevance:
+Family / Productivity / Health / Lifestyle
 
-✅ 1. Lifestyle (Primary Category)
-Legacy+ is primarily a Lifestyle app. It focuses on:
-Beauty & fashion journaling (hair, nails, outfits)
-Meal planning and family recipes
-Calendar coordination and memory-keeping
+Mobile:
+Leverages mobile-specific features including:
+  Push notifications
+  Voice notes
+  Camera uploads (photos & videos)
+  Real-time calendar sync
+  Audio-based memory recording
 
-Local business discovery (barbershops, salons, etc.)
-This aligns directly with lifestyle habits, especially within culturally rich, multigenerational households.
+Story:
+A compelling, emotionally resonant story around supporting family connections across generations.
+Helps coordinate caregiving, memory sharing, meal planning, and family bonding.
 
-✅ 2. Productivity (Secondary Category)
-It acts as a family productivity hub:
+Market:
+Broad market appeal including:
+  Multigenerational households
+  Blended families
+  Parents, caregivers, and grandparents
+  Reunions and family caregivers
+  High value to a defined but sizable niche.
 
-Smart calendar and reminders
-Health tracking (appointments, medications)
-Civic event planning and local involvement
-This makes it a digital organizer that enhances household efficiency.
+Habit:
+Encourages regular engagement:
+  Weekly calendar check-ins
+  Uploading photos/memories
+  Voice planning/sharing
+  Health and appointment reminders
 
-✅ 3. Health & Fitness (Support Category)
-While not focused on physical fitness, the Health Hub tracks:
+Scope:
+Clear MVP includes:
+  Smart calendar sync
+  Memory uploads
+  Group chat
+    Technically feasible for an initial launch; expandable with future modules (e.g., health hub, voice 
+    meal planner).
 
-Doctor visits
-Medication reminders
-Family wellness tips
-This earns it partial relevance to the Health & Fitness category.
-
-✅ 4. Education (Support Category)
-Through civic and school board updates, college info, and legacy learning (e.g., oral histories), the app contributes to family education and awareness, especially around:
-
-Cultural knowledge
-Political literacy
-Generational storytelling
-
-⚠️ Less relevant categories:
-Social: Although it includes group chats and shared memory features, it's more family-focused than general social networking.
-Entertainment: There's sentimental value and multimedia content, but entertainment isn't a primary function.
-Travel: No direct travel planning or booking features.
-
-🔖 Suggested App Store Categories:
-For app submission (e.g., Apple App Store / Google Play):
-
-Primary: Lifestyle
-Secondary: Productivity or Health & Fitness
-Optional Tags: Education, Family, Wellness, Civic Engagement
-
-📱 Mobile:
-Legacy+ is natively mobile-first. It uses:
-
-Push notifications for reminders (hair appointments, elections, events)
-Camera and audio for memory uploads and voice-annotated recipes
-Location services for finding local salons, barbershops, or community meetings
-Real-time sync for calendar updates and family chat
-This app is not just a web wrapper—it capitalizes on what smartphones do best.
-
-📖 Story:
-Legacy+ is a “Life OS for Families,” helping households stay rooted, organized, and civically engaged. It blends tradition and tech by digitizing oral histories, style inspiration, family health, and civic duties in one seamless app.
-The story is relatable, emotional, and empowering—designed for people who want to preserve their family legacy while staying on top of daily life.
-Its cross-generational utility makes it highly shareable among families and friends.
-
-📊 Market:
-Legacy+ targets a deeply defined, underserved market:
-Black and Brown multigenerational families
-Culturally-conscious parents and caregivers
-Gen Z & Millennial women balancing wellness, beauty, and civic engagement
-The market is both niche and large, with room to scale regionally and nationally across affinity communities.
-
-🔥 Habit:
-The app encourages habitual engagement through:
-Weekly use (calendar sync, reminders, meal planning, civic alerts)
-Daily journaling or media uploads (style logs, memory vaults, health tracking)
-Monthly participation (civic actions, milestones, community posts)
-Users don’t just consume—they create and collaborate, forming emotional ties to the app content.
-
-📦 Scope:
-The MVP is highly buildable and still powerful:
-Smart Calendar (Kinnected)
-Hair/Nail/Fashion Journal (Rooted)
-Legacy Timeline + Civic Feed (Civically Connected)
-Each module can launch independently or as part of the larger app, making it a scalable and technically achievable product by MVP standards.
-
+Product Spec
 1. User Stories
-✅ Required Must-have Stories
-These are essential for the MVP (minimum viable product):
-
-As a user, I want to sync my family calendar so I can see important events like birthdays, appointments, and reunions.
-
-As a user, I want to upload and view family memories (photos, videos, voice notes) so I can preserve generational stories.
-
-As a user, I want to journal hairstyles, nail designs, or fashion looks with photos and descriptions.
-
-As a user, I want to receive reminders for events, health check-ins, or civic deadlines.
-
-As a user, I want to message my family group to coordinate and share updates.
-
-As a user, I want to log health-related events like doctor visits or medications.
-
-As a user, I want to see a feed of local civic news (school board, elections) that impacts my family.
-
-✨ Optional Nice-to-have Stories
-As a user, I want to voice-record my grandmother’s recipe while she cooks so I can save and share it.
-
-As a user, I want to find and rate nearby beauty service providers (barbers, salons, spas).
-
-As a user, I want to view a timeline of family accomplishments like graduations and obituaries.
-
-As a user, I want to RSVP to family events or civic activities like town halls or PTA meetings.
-
-As a user, I want to save fashion inspiration boards for specific events like funerals, weddings, or graduation.
-
-As a user, I want to track civic engagement milestones (e.g., voted, volunteered) for family legacy.
-
-As a user, I want to share beauty routines with my mom, sister, or cousin through the app.
+Required Must-have Stories
+  User can sign up and create a private family group
+  User can add and sync calendar events
+  User can upload family memories (photos, videos, audio)
+  User can participate in group chat within their family circle
+  Users can set and receive push reminders for events and health routines
+  User can view and contribute to a shared family memory timeline
+Optional Nice-to-have Stories
+  Voice-activated meal planner with grocery list integration
+  Health Hub to track appointments and medication
+  Voice notes for storytelling or planning
+  AI-based photo tagging and memory sorting
+  Integration with Google Calendar, Apple Health, etc.
 
 2. Screen Archetypes
-🏠 Home Dashboard
-Shows calendar preview, memory lane highlights, quick links to modules
-Associated Required Stories:
+Login/Signup Screen
+→ User authentication and group creation/invite
 
-View synced calendar
+Home Dashboard
+→ Quick access to calendar, memories, health reminders, chat
 
-View memory highlights
+Calendar Screen
+→ View/add/edit shared family events
+→ RSVP to events
 
-Access health, fashion, civic tabs
+Memory Lane Screen
+→ Upload and browse photos, videos, voice memories
 
-📅 Family Calendar
-Monthly/weekly view with shared family events
-Associated Required Stories:
-View and create events
-Set reminders
-RSVP to family/civic events
+Group Chat Screen
+→ Text and voice messaging among family members
 
-🖼️ Memory Lane
-Visual feed of family photos, videos, and voice notes
-Associated Required Stories:
-Upload family memories
-View memory history
-Voice record memories
-
-💅 Beauty & Fashion Journal
-Personal and shared style journals
-Associated Required Stories:
-Upload hairstyle/nail/fashion photos
-Rate stylists
-Save fashion boards
-
-❤️ Health Tracker
-Log appointments, medication, and share tips
-Associated Required Stories:
-Log doctor visits
-Set medication reminders
-
-🗳️ Civic Feed & Legacy Board
-Local political news and family civic timeline
-Associated Required Stories:
-View local civic updates
-Add accomplishments to legacy timeline
-
-💬 Group Messaging
-Chat threads with push notifications
-Associated Required Stories:
-
-Message family
-
-Share reminders or ideas
+Reminders/Health Hub
+→ Track appointments, medication, and habits
 
 3. Navigation
-🧭 Tab Navigation (Tab to Screen)
-Home → Dashboard
-Calendar → Family Calendar
-Memories → Memory Lane
-Beauty & Health → Beauty Journal & Health Tracker
-Civic → Civic Feed & Legacy Board
-Messages → Group Chat
+Tab Navigation (Tab to Screen)
+📅 Calendar
+🖼️ Memories
+💬 Chat
+🏠 Home
+🩺 Health (optional tab in later versions)
 
-🔁 Flow Navigation (Screen to Screen)
-Home Dashboard
-→ Calendar
-→ Memories
-→ Civic Feed
-→ Beauty Journal
-→ Health Tracker
-
-Family Calendar
-→ Event Details
-→ RSVP Screen
-→ Add Event
-
-Memory Lane
-→ Upload Photo/Video/Voice Note
-→ View Full Memory
-
-Beauty Journal
-→ Upload Entry
-→ Rate Stylist
-→ View Fashion Board
-
-Health Tracker
-→ Add Appointment
-→ Medication Log
-
-Civic Feed
-→ Election Info
-→ Legacy Timeline Entry
-→ Civic Event RSVP
-
-Group Messaging
-→ Chat Thread
-→ Push Notification Settings
-...
+Flow Navigation (Screen to Screen)
+Login → Home Dashboard
+Home → Calendar
+Home → Memories
+Home → Chat
+Home → Health
+Upload Memory → Record Audio/Video → Submit
+Add Event → Event Details → Save
 
 Wireframes
+[Insert hand-drawn wireframes or sketches here]
+(Suggested screens to sketch: Login, Home, Calendar, Memory Lane, Chat)
 
-<img width="1536" height="1024" alt="ChatGPT Image Aug 4, 2025, 10_41_00 PM" src="https://github.com/user-attachments/assets/0383b659-f768-4f87-abf6-ae808b258e6e" />
+[BONUS] Digital Wireframes & Mockups
+(Once designed, paste images or links to Figma or Adobe XD here)
+
+[BONUS] Interactive Prototype
+(Add Figma/ProtoPie/Framer link if applicable)
+
+Schema
+Models
+  User
+  id
+  name
+  email
+  password
+  family_group_id
+
+FamilyGroup
+  id
+  name
+  members [User]
+
+Memory
+  id
+  user_id
+  family_group_id
+  media (image/audio/video)
+  description
+  created_at
+
+Event
+  id
+  title
+  date/time
+  description
+  attendees [User]
+  reminders_enabled
+
+Message
+  id
+  sender_id
+  family_group_id
+  content (text/audio)
+  timestamp
+
+HealthEntry
+  id
+  user_id
+  family_group_id
+  entry_type (appointment, medication)
+  date/time
+  notes
+
+Networking
+Requests by Screen
+Login/Signup Screen
+  POST /signup – Create user account
+  POST /login – Authenticate user
+
+Home Dashboard
+  GET /dashboard – Fetch summary of events, reminders, messages
+
+Calendar
+  GET/events – Fetch family events
+  POST /events – Add new event
+  PUT /events/:id – Edit event
+  DELETE /events/:id – Delete event
+
+Memory Lane
+  GET /memories – Fetch memory list
+  POST /memories – Upload new memory (photo/video/audio)
+
+Chat
+  GET /messages – Fetch chat messages
+  POST /messages – Send new message
+
+Health Hub
+GET /health – Fetch health entries
+POST /health – Add health entry
 
 
 [BONUS] Digital Wireframes & Mockups
 [BONUS] Interactive Prototype
-
 Schema
 [This section will be completed in Unit 9]
 
