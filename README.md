@@ -2,7 +2,7 @@ App Name: Kinnected
 
 Overview
 
-Description
+Description  
 Kinnected is a private, family-first digital organizer that helps multigenerational and blended households stay emotionally, physically, and socially connected. It combines shared calendars, health tracking, memory keeping, and planning tools into one secure mobile hub. Whether you're managing elder care, school events, or weekly meal plans, Kinnected is your family’s digital command center.
 
 App Evaluation
