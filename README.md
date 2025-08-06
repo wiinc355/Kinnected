@@ -180,6 +180,7 @@ Health Hub
 GET /health – Fetch health entries
 POST /health – Add health entry
 
+____________________________________________________________________
 
 [BONUS] Digital Wireframes & Mockups
 [BONUS] Interactive Prototype
